@@ -2,6 +2,8 @@
 
 This is a modern restaurant landing page built with ReactJS, focusing on UI/UX design principles.
 
+![Restaurant Landing Page]("C:\Users\anura\Pictures\Screenshots\Screenshot 2024-02-25 031128.png")
+
 ## Live Demo
 
 Check out the live demo [here](https://aromadine.netlify.app/).
