@@ -1,5 +1,5 @@
 .app__video {
-    height: 100vh !important;
+    height: 100vh;
     position: relative;
   }
   
@@ -57,7 +57,7 @@
 
   @media screen and (max-width: 1600px){
     .app__video {
-      height: 50vh;
+      /* height: 50vh; */
       position: relative;
     }
 
