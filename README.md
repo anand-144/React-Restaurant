@@ -2,7 +2,7 @@
 
 This is a modern restaurant landing page built with ReactJS, focusing on UI/UX design principles.
 
-![Restaurant Landing Page]("https://ibb.co/Kcn4g53")
+![Restaurant Landing Page]("https://i.postimg.cc/Pr4nryMM/Screenshot-2024-02-25-031128.png")
 
 ## Live Demo
 
