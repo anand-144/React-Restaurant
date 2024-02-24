@@ -1,42 +1,42 @@
 /* CustomScrollbar.css */
 
 /* Apply custom scrollbar to the entire page */
-html, body, #root {
-    height: 100%;
-    margin: 0;
-  }
-  
-  /* Container for the custom scrollbar */
-  .custom-scrollbar {
-    overflow-y: auto; /* Enable vertical scrolling */
-    height: 100%; /* Fill the entire height of the page */
-  }
-  
-  /* CSS for custom scrollbar */
-  /* width */
-  .custom-scrollbar::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  .custom-scrollbar::-webkit-scrollbar-track {
-    background: var(--color-black);
-    /* border-radius: 5px;  */
-  }
-  
-  /* Handle */
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: wheat;
-    border-radius: 5px; 
-  }
-  
-  /* Handle on hover */
-  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: var(--color-golden);
-  }
-  
-  /* Content inside the scrollbar container */
-  .scroll-content {
-   /* padding: 2rem; */
-  }
-  
+html,body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Container for the custom scrollbar */
+.custom-scrollbar {
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  height: 100%; /* Fill the entire height of the page */
+}
+
+/* CSS for custom scrollbar */
+/* width */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--color-black);
+  /* border-radius: 5px;  */
+}
+
+/* Handle */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: wheat;
+  border-radius: 5px; 
+}
+
+/* Handle on hover */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--color-golden);
+}
+
+/* Content inside the scrollbar container */
+.scroll-content {
+  /* padding: 2rem; */
+}

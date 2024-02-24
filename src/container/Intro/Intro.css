@@ -1,5 +1,5 @@
 .app__video {
-    /* height: 100vh; */
+    height: 100vh !important;
     position: relative;
   }
   
@@ -24,9 +24,46 @@
   }
 
   @media screen and (max-width: 650px) {
+
+    .app__video {
+      height: 25vh;
+      position: relative;
+    }
+
     .app__video video {
       width: 100%;
-      height: 31%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    /* Move these styles inside the media query */
+    .app__video-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.65);
+      display: flex;
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+    }
+  
+    .app__video-overlay_circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 1px solid var(--color-golden);
+      cursor: pointer;
+    }
+  }
+
+  @media screen and (max-width: 1600px){
+    .app__video {
+      height: 50vh;
+      position: relative;
+    }
+
+    .app__video video {
+      width: 100%;
+      height: 100%;
       object-fit: cover;
     }
   
